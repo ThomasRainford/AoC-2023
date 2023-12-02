@@ -1,5 +1,5 @@
-import { p1 } from "./src/day1/p1";
-import { p2 } from "./src/day1/p2";
+import { p1 } from "./src/day2/p1";
+import { p2 } from "./src/day2/p2";
 
 const part = Bun.argv[2];
 if (part === "1") console.log(p1());
