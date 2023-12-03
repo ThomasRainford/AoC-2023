@@ -5,7 +5,7 @@ const readInput = () => {
   if (inputFileName !== "sample" && inputFileName !== "input") {
     throw new Error("The filename must be 'sample' or 'input'.");
   }
-  let data = readFileSync(`./src/day1/p2/${Bun.argv[3]}.txt`, "utf8").split(
+  let data = readFileSync(`./src/day3/p2/${Bun.argv[3]}.txt`, "utf8").split(
     "\n"
   );
   return data;

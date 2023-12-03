@@ -13,4 +13,9 @@ const readInput = () => {
 export const p1 = () => {
   const input = readInput();
   console.log(input);
+
+  const result = 0;
+
+  console.log("\nResult");
+  return result;
 };
